@@ -1,2 +1,2 @@
-# Portfolio_Send
-HTML, CSS, Bootstrap, JavaScript
+# Portfolio
+Bootstrap, HTML, CSS

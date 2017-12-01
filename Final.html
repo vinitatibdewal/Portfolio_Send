@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Vinita Tibdewal Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script> <!--onscroll animation link js file-->
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet"> <!--onscroll animation link css file-->
+  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#myPage">Vinita Tibdewal</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">ABOUT</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="c1.jpg" alt="Image" width="500" height="500">
+        <div class="carousel-caption">
+          <h3>Hello!</h3>
+	  <p>I'm a designer and part-time coder</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="c1.jpg" alt="Image" width="500" height="500">
+        <div class="carousel-caption">
+          <h3>Determination</h3>
+          <p>Without actually taking the action or efforts to achieve the goals, passion is nothing but a bare shell.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="c1.jpg" alt="Image" width="500" height="500">
+        <div class="carousel-caption">
+          <h3>Optimism</h3>
+          <p>Design is not a profession but an attitude. -- Laszlo Moholy-Nagy</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+<!-- Container (The Portfolio Section) -->
+<div id="portfolio" class="container text-center">
+  <h3>My Creations</h3>
+  <p><em>Graphic design will save the world right after rock and roll does -David Carson</em></p>
+  <br>
+<div class="row">
+  <div class="col-sm-4">
+    <p class="text-center">Design is not just what it looks and feels like. Design is how it works -Steve Jobs</p><br>
+     <a href="#myModal1" data-toggle="modal">
+       <img src="pinkFlower1.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+     </a>
+  <div id="myModal1" class="modal fade" role="dialog">
+   <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+         <h4 class="modal-title">Project</h4>
+      </div>
+      <div class="modal-body">
+        <p>In the final year of my graduation, I started a project on "Food Recognition and Calorie Content Measurement" with my 3 friends.
+           First we thought of using caffe framework for the training purpose, but after requirement analysis, we found out that tensorflow is 
+ 	   better option for us and then using tensorflow framework and inception model we trained our dataset which consisted of images from 
+	   existing Food101 dataset. 	    
+
+	</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+   </div>
+  </div>
+  </div>
+
+<div class="col-sm-4">
+   <p class="text-center">Digital design is like painting, except the paint never dries -Neville Brody</p><br>
+     <a href="#myModal2" data-toggle="modal">
+      <img src="dogFace1.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+     </a>
+<div id="myModal2" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+         <h4 class="modal-title">Digital Art</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="col-sm-4">
+      <p class="text-center">Everything is designed. Few things are designed well -Brian Reed</p><br>
+      <a href="#myModal3" data-toggle="modal">
+        <img src="vinu1.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+<div id="myModal3" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+         <h4 class="modal-title">Drawings and Paintings</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+</div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container">
+  <p class="text-center"><em>Creativity is only as obscure as your reference. -Unknown via Aaron Wiggan</em></p>
+  <h3 class="text-center">Contact</h3>
+  <div class="row">
+    <div class="col-md-4">
+      <p><span class="glyphicon glyphicon-map-marker"></span> Pune, India</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +91 8446416310</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> vinitatibdewal@gmail.com</p>
+    </div>
+
+<!--Resume-->
+    <div class="col-md-4 text-center">
+    <span class="resume">
+    <a href="https://www.visualcv.com/vinita-tibdewal"
+	target="_blank" class="btn btn-default btn-lg" role="button">
+	Resume</a>
+    </span>
+    </div>
+</div>
+</div>
+  <br>
+  <h3 class="text-center">From The Blog</h3>
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Mike</a></li>
+    <li><a data-toggle="tab" href="#menu1">Chandler</a></li>
+    <li><a data-toggle="tab" href="#menu2">Peter</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h2>Mike Ross, Manager</h2>
+      <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h2>Chandler Bing, Guitarist</h2>
+      <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h2>Peter Griffin, Bass player</h2>
+      <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" data-toggle="tooltip" title="Visit w3schools">www.w3schools.com</a></p>
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Initialize Tooltip
+  $('[data-toggle="tooltip"]').tooltip();
+
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+      // Store hash
+      var hash = this.hash;
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+</body>
+</html>
